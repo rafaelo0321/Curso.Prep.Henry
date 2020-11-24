@@ -31,9 +31,12 @@ function devolverString(str) {
 }
 
 function suma(x, y) {
-  // "x" e "y" son números
-  // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
+  //"x" e "y" son números
+  //Suma "x" e "y" juntos y devuelve el valor
+  //Tu código:
+    var Suma = x + y;
+    Document.write(suma);
+    return suma;
 }
 
 function resta(x, y) {
